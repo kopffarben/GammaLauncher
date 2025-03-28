@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <VLAssetBehavior>PointToOriginal</VLAssetBehavior>
+    <VLAssetBehavior>PointToOutput</VLAssetBehavior>
     <VLCleanBuildDirectory>True</VLCleanBuildDirectory>
     <VLExportPath>$(MsBuildThisFileDirectory)output</VLExportPath>
     <VLTargetOS>Windows</VLTargetOS>
     <OutputType>WinExe</OutputType>
-    <PlatformTarget>x64</PlatformTarget>
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <TargetFramework>net8.0-windows</TargetFramework>
     <ApplicationIcon>$(MsBuildThisFileDirectory)img\ico.ico</ApplicationIcon>
   </PropertyGroup>
